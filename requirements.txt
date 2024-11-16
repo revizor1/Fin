@@ -1,0 +1,6 @@
+yfinance
+pyvis
+plotly
+cufflinks
+#keras
+yahooquery

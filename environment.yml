@@ -1,0 +1,26 @@
+# To use:
+#   $ conda env create -f fin.yml
+#   $ conda activate fin
+name: fin
+dependencies:
+  # - python=3.9
+  - conda
+  # - yahooquery
+  - conda:
+    - ipykernel
+    - numpy
+    - pandas
+    - lxml=4.9.2
+    - matplotlib
+    - nbformat
+    # - cufflinks-py
+    - scipy
+    - seaborn
+    - yfinance
+    - pyvis
+    - plotly=5.22.0
+    # keras
+  - pip=22.0.4
+  - pip:
+    - yahooquery
+    - cufflinks==0.17.3
