@@ -1,11 +1,10 @@
 # To use:
-#   $ conda env create -f fin.yml
+#   $ conda env create -f environment.yml
 #   $ conda activate fin
 name: fin
 dependencies:
   # - python=3.9
   - conda
-  # - yahooquery
   - conda:
     - ipykernel
     - numpy
@@ -13,7 +12,6 @@ dependencies:
     - lxml=4.9.2
     - matplotlib
     - nbformat
-    # - cufflinks-py
     - scipy
     - seaborn
     - yfinance
