@@ -1,6 +1,6 @@
-yfinance
-pyvis
-plotly
 cufflinks
-yahooquery
 curl_cffi
+plotly
+pyvis
+yahooquery
+yfinance

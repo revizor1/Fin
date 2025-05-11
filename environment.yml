@@ -6,19 +6,21 @@ dependencies:
   # - python=3.9
   - conda
   - conda:
-    - ipykernel
-    - numpy
-    - pandas
-    - lxml=4.9.2
-    - matplotlib
-    - nbformat
-    - scipy
-    - seaborn
-    - yfinance
-    - pyvis
-    - plotly=5.22.0
-    # keras
+      - ipykernel
+      - numpy
+      - pandas
+      # - lxml=4.9.2
+      - lxml
+      - matplotlib
+      - nbformat
+      - scipy
+      - seaborn
+      - yfinance
+      - pyvis
+      # - plotly=5.22.0
+      - plotly
   - pip=22.0.4
   - pip:
-    - yahooquery
-    - cufflinks==0.17.3
+      - yahooquery
+      # - cufflinks==0.17.3
+      - cufflinks
